@@ -167,13 +167,31 @@ h4 {
 
 .content {
   margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .bold-label,
 .form-label {
   font-weight: 700;
   text-align: left;
+}
+
+.form-control {
+  background: #ecf39e;
+  border: 0 none;
+  border-bottom: 2px solid #31572c;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  background: #ecf39e;
+}
+
+input::placeholder {
+  color: #90a955;
+}
+
+button {
+  border-radius: 50%;
 }
 
 #mainNavbar {
@@ -230,6 +248,10 @@ footer {
   color: #90a955;
 }
 
+.location-item {
+  color: white;
+}
+
 .location-item span {
   font-weight: bold;
   font-size: 1rem;
@@ -240,6 +262,22 @@ footer {
   font-size: 0.9rem;
 }
 
+.footer-icon {
+  color: white;
+}
+.footer-icon:hover {
+  color: #90a955;
+}
+
+.footer-legal a {
+  color: #90a955;
+}
+
+.privacy {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 @media (max-width: 1200px) {
   #headingGroup h1 {
     font-weight: 100;
@@ -247,5 +285,15 @@ footer {
   }
   .blurb h2 {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 458px) {
+  .hoo {
+    font-size: 0.7rem;
+    padding: 0 2rem;
+  }
+  .hoo h4 {
+    font-size: 0.6rem;
   }
 }
