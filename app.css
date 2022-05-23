@@ -1,0 +1,251 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*------------------------------ my CSS below here -------------------------------*/
+
+body {
+  background: #ecf39e;
+  font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+  color: #31572c;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #90a955;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.container {
+  color: #90a955;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.bold-label,
+.form-label {
+  font-weight: 700;
+  text-align: left;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #31572c;
+}
+
+#mainNavbar .navbar-brand {
+  color: #31572c;
+  font-size: 1.5rem;
+}
+
+#headingGroup span {
+  color: #31572c;
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.navbar.scrolled {
+  background: #90a955;
+  transition: background 500ms;
+}
+
+footer {
+  background-color: #31572c;
+  padding: 100px 0;
+}
+
+.footer-title {
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.footer-content {
+  padding-bottom: 70px;
+}
+
+.footer-link {
+  color: white;
+}
+
+.footer-link:hover {
+  color: #90a955;
+}
+
+.location-item span {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.location-item li {
+  padding-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+  .blurb h2 {
+    font-size: 2rem;
+  }
+}
